@@ -2,13 +2,10 @@
 from setuptools import setup
 import os
 
-
-README = os.path.join(os.path.dirname(__file__), 'README.md')
-
 setup(name='attributetools',
-      version='0.1.2',
+      version='0.1.4',
       description='A decorator to set some attribute to a function.',
-      long_description=open(README).read(),
+      long_description='A decorator to set some attribute to a function.',
       author="Paulo Romano", author_email="pauloromanocarvalho@gmail.com",
       license="MIT",
       py_modules=['attributetools'],
