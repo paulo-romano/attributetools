@@ -6,7 +6,7 @@ import os
 README = os.path.join(os.path.dirname(__file__), 'README.md')
 
 setup(name='attributetools',
-      version='0.1',
+      version='0.1.2',
       description='A decorator to set some attribute to a function.',
       long_description=open(README).read(),
       author="Paulo Romano", author_email="pauloromanocarvalho@gmail.com",
@@ -26,4 +26,5 @@ setup(name='attributetools',
           'Programming Language :: Python :: 3',
           'Topic :: Software Development :: Libraries',
       ],
-      url='https://github.com/paulo-romano/attributetools',)
+      url='https://github.com/paulo-romano/attributetools',
+      download_url='https://github.com/paulo-romano/attributetools/tarball/0.1',)
